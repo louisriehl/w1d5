@@ -1,0 +1,17 @@
+{
+  "name": "l_a",
+  "version": "1.0.0",
+  "description": "creating tester code for luhn",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "lriehl",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
