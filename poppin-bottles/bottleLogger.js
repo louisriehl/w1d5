@@ -60,7 +60,11 @@ while ( collection.bottles >= 2 || collection.caps >= 4)
   recycle();
 }
 
-console.log(collection);
+console.log('You obtained ' + collection.total + " bottles!"
+  + "\nBottles earned by recycling:\n"
+  + "  by turning in empty bottles: " + collection.bottlesFromEmpties
+  + "\n  by turning in bottle caps: " + collection.bottlesFromCaps
+  + "\nYou have " + collection.caps + " caps left over and " + collection.bottles + " bottles leftover!");
 
 
 
